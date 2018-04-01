@@ -7,9 +7,13 @@ import java.io.Serializable;
  * Created by mohamed ali on 3/26/2018.
  */
 @Entity
-public class Roles {
+public class Roles implements Serializable {
 
-    @Id
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	@Id
     @GeneratedValue
     private Long idRole;
     private String roleName;

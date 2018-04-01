@@ -12,7 +12,12 @@ import java.util.List;
 @Entity
 public class CommandeClient implements Serializable{
 
-    @Id
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	@Id
     @GeneratedValue
     private Long idCommandeClient;
 

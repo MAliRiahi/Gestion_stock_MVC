@@ -11,7 +11,12 @@ import java.util.Date;
 @Entity
 public class MvtStk implements Serializable{
 
-    public static final int ENTREE = 1;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public static final int ENTREE = 1;
 
     public static final int SORTIE = 2;
 

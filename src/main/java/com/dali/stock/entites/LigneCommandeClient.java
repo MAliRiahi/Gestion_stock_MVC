@@ -10,7 +10,12 @@ import java.math.BigDecimal;
 @Entity
 public class LigneCommandeClient implements Serializable {
 
-    @Id
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	@Id
     @GeneratedValue
     private Long idLigneCdeClt;
 

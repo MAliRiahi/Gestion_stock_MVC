@@ -9,7 +9,12 @@ import java.io.Serializable;
 @Entity
 public class LigneVente implements Serializable{
 
-    @Id
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	@Id
     @GeneratedValue
     private Long idLigneVente;
 
