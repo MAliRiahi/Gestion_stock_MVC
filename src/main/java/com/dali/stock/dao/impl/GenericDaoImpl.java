@@ -37,13 +37,13 @@ EntityManager em;
     }
 
     @Override
-    public Object save(Object entity) {
+    public E save(E entity) {
         em.persist(entity);
         return entity;
     }
 
     @Override
-    public Object update(Object entity) {
+    public E update(E entity) {
         return em.merge(entity);
     }
 /*Hibernate utilise plusieurs moyens pour obtenir des données de la base de données :

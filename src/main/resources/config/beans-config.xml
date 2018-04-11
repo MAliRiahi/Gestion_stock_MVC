@@ -54,7 +54,7 @@
 
     <bean id="flickrDao" class="com.dali.stock.dao.impl.FlickrDaoImpl" />
     <bean id="flickrService" class="com.dali.stock.services.impl.FlickrServiceImpl">
-        <!--property name="dao" ref="flickrDao"></property-->
+        <property name="dao" ref="flickrDao"></property>
     </bean>
 
 
